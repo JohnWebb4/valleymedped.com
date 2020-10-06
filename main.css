@@ -1,0 +1,5 @@
+:target {
+    /* Fixing Bootstrap fixed navbar */
+    padding-top: 80px;
+    margin-top: -80px;
+}

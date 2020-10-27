@@ -4,16 +4,6 @@
     margin-top: -80px;
 }
 
-.modal-dialog {
-    margin: 15% auto;
-    max-width: 100%;
-}
-
-.video-column {
-    position: relative;
-}
-
-.video-overlay {
-    z-index: 10;
-    position: absolute;
+iframe {
+    border-style: none;
 }

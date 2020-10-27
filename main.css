@@ -1,18 +1,22 @@
 :target {
-    /* Fixing Bootstrap fixed navbar */
-    padding-top: 80px;
-    margin-top: -80px;
+  /* Fixing Bootstrap fixed navbar */
+  padding-top: 80px;
+  margin-top: -80px;
 }
 
 iframe {
-    border-style: none;
+  border-style: none;
 }
 
 @media only screen and (max-width: 750px) {
-    #healthBody {
-        width: 750px;
-    }
-    section {
-        padding: 0 !important;
-    }
+  #healthBody {
+    width: 750px !important;
+  }
+  #healthSection {
+    width: 750px !important;
+    padding: 0 !important;
+  }
+  #healthAnnouncements {
+    overflow: hidden;
+  }
 }

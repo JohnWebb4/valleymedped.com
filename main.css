@@ -7,3 +7,12 @@
 iframe {
     border-style: none;
 }
+
+@media only screen and (max-width: 750px) {
+    #healthBody {
+        width: 750px;
+    }
+    section {
+        padding: 0 !important;
+    }
+}

@@ -8,6 +8,54 @@ iframe {
   border-style: none;
 }
 
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-main {
+  background-image: url("static/header-minus-text.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 75vh;
+}
+
+.hero-new-patient {
+  background-image: url("static/nurse-group.jpg");
+  background-position: center;
+  background-size: cover;
+
+  min-height: 75vh;
+}
+
+.hero-patient {
+  background-image: url("static/header-minus-text.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 75vh;
+}
+
+.jumbotron {
+  padding-bottom: 3rem;
+}
+
+.jumbo-text-container {
+  background-color: #000000aa;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  align-self: center;
+}
+
+.title {
+  font-family: "Overlock", cursive;
+}
+
 @media only screen and (max-width: 750px) {
   #healthBody {
     width: 750px !important;
@@ -18,5 +66,15 @@ iframe {
   }
   #healthAnnouncements {
     overflow: hidden;
+  }
+
+  .jumbotron {
+    padding-bottom: 0rem;
+  }
+
+  .jumbo-text-container {
+    width: 100%;
+    border-radius: 0rem;
+    background-attachment: scroll;
   }
 }

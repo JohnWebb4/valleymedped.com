@@ -26,8 +26,10 @@ iframe {
 
 .hero-new-patient {
   background-image: url("static/nurse-group.jpg");
-  background-position: center;
   background-size: cover;
+  background-position-x: center;
+  background-position-y: 50px;
+  background-repeat: no-repeat;
 
   min-height: 75vh;
 }
@@ -66,6 +68,16 @@ iframe {
   }
   #healthAnnouncements {
     overflow: hidden;
+  }
+
+  .hero-new-patient {
+    background-size: auto;
+    background-position-y: 40px;
+    min-height: 50px;
+  }
+
+  .hero-new-patient h1 {
+    margin-bottom: 0.1rem !important;
   }
 
   .jumbotron {

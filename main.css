@@ -8,39 +8,26 @@ iframe {
   border-style: none;
 }
 
-.parallax {
+.hero-staff-parallax {
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.hero-main {
-  background-image: url("static/header-minus-text.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("static/nurse-group-main.jpg");
   background-size: cover;
+  background-position-x: center;
+  background-position-y: -10vh;
+  background-repeat: no-repeat;
 
-  min-height: 75vh;
+  min-height: 70vh;
 }
 
 .hero-staff {
   background-image: url("static/nurse-group.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position-x: center;
-  background-position-y: 50px;
+  background-position-y: 1vh;
   background-repeat: no-repeat;
 
-  min-height: 75vh;
-}
-
-.hero-patient {
-  background-image: url("static/header-minus-text.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  min-height: 75vh;
+  min-height: 60vh;
 }
 
 .jumbotron {
@@ -71,9 +58,12 @@ iframe {
   }
 
   .hero-staff {
-    background-size: auto;
-    background-position-y: 40px;
-    min-height: 50px;
+    background-position-y: 15%;
+    min-height: 40vh;
+  }
+
+  .hide-mobile {
+    display: none;
   }
 
   .hero-staff h1 {

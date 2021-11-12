@@ -24,7 +24,7 @@ iframe {
   min-height: 75vh;
 }
 
-.hero-new-patient {
+.hero-staff {
   background-image: url("static/nurse-group.jpg");
   background-size: cover;
   background-position-x: center;
@@ -70,13 +70,13 @@ iframe {
     overflow: hidden;
   }
 
-  .hero-new-patient {
+  .hero-staff {
     background-size: auto;
     background-position-y: 40px;
     min-height: 50px;
   }
 
-  .hero-new-patient h1 {
+  .hero-staff h1 {
     margin-bottom: 0.1rem !important;
   }
 

@@ -1,1 +1,4 @@
 .env*
+
+# Mac filesystem
+.DS_Store

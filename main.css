@@ -47,21 +47,18 @@ nav {
   font-family: "Overlock", cursive;
 }
 
+#healthAnnouncements {
+  padding-left: 15%;
+}
+
 @media only screen and (max-width: 750px) {
+  footer {
+    padding-bottom: 6rem;
+  }
+
   nav {
     top: initial;
     bottom: 0;
-  }
-
-  #healthBody {
-    width: 750px !important;
-  }
-  #healthSection {
-    width: 750px !important;
-    padding: 0 !important;
-  }
-  #healthAnnouncements {
-    overflow: hidden;
   }
 
   .hero-staff {
@@ -89,5 +86,10 @@ nav {
 
   .show-mobile {
     display: inherit;
+  }
+
+  #healthAnnouncements {
+    min-height: 1500px;
+    padding-left: 0;
   }
 }

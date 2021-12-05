@@ -27,3 +27,9 @@ Any push to master is automatically deployed to Github Pages.
 Use Filezilla to upload files to FTP server.
 
 [Website](http://valleymedped.com/)
+
+## Roadmap
+
+- Hosting images through a CDN
+- Github release tags automatically deploy to production
+- Site is themed based off time of year

@@ -43,6 +43,10 @@ nav {
   align-self: center;
 }
 
+.jumbo-text-container h1 {
+  font-size: 1.75rem;
+}
+
 .title {
   font-family: "Overlock", cursive;
 }

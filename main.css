@@ -17,19 +17,19 @@ nav {
 }
 
 .hero-staff {
-  background-attachment: fixed;
-
   background-image: url("static/nurse-group.jpg");
   background-size: cover;
   background-position-x: center;
-  background-position-y: -10vh;
+  background-clip: content-box;
   background-repeat: no-repeat;
-
-  min-height: 60vh;
+  min-height: 50vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 90%;
 }
 
 .jumbotron {
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 
 .show-mobile {
@@ -44,11 +44,12 @@ nav {
 }
 
 .jumbo-text-container h1 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .title {
   font-family: "Overlock", cursive;
+  font-size: 3rem;
 }
 
 #healthAnnouncements {
@@ -66,8 +67,9 @@ nav {
   }
 
   .hero-staff {
-    background-position-y: -10vh;
-    min-height: 40vh;
+    background-clip: initial;
+    min-height: 20vh;
+    width: initial;
   }
 
   .hide-mobile {
@@ -75,11 +77,14 @@ nav {
   }
 
   .hero-staff h1 {
+    font-size: 1.5rem;
     margin-bottom: 0.1rem !important;
+    margin-top: 0px !important;
   }
 
   .jumbotron {
-    padding-bottom: 0rem;
+    padding: 0.5rem;
+    justify-content: flex-end !important;
   }
 
   .jumbo-text-container {

@@ -97,6 +97,10 @@ nav {
     display: inherit;
   }
 
+  .text-sm-center {
+    text-align: center;
+  }
+
   #healthAnnouncements {
     min-height: 1500px;
     padding-left: 0;

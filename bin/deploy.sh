@@ -20,8 +20,6 @@ deploy() {
 
   mput *
 
-  put nurse-group.jpg
-
   close
   exit
 EOF
